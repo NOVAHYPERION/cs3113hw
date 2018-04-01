@@ -1,0 +1,7 @@
+﻿  main.cpp
+c:\users\leonardo\desktop\githubhwcs3113\hw4\hw4\cs3113-master\nyucodebase\flaremap.cpp(97): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4\hw4\cs3113-master\nyucodebase\flaremap.cpp(98): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4\hw4\cs3113-master\nyucodebase\main.cpp(31): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4\hw4\cs3113-master\nyucodebase\main.cpp(32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4\hw4\cs3113-master\nyucodebase\main.cpp(296): warning C4305: 'argument': truncation from 'double' to 'float'
+  NYUCodebase.vcxproj -> C:\Users\Leonardo\Desktop\githubhwcs3113\HW4\HW4\cs3113-master\NYUCodebase\Debug\NYUCodebase.exe
