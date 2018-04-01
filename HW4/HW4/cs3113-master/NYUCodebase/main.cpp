@@ -7,7 +7,7 @@
 #include <SDL_image.h>
 #include "ShaderProgram.h"
 #include "Matrix.h"
-#include "FlareMap.cpp"
+#include "FlareMap.h"
 
 #define STB_IMAGE_IMPLEMENTATION
 
@@ -32,6 +32,31 @@ int TEXXNUM = TEXXMAX / 16.0f;
 int TEXYNUM = TEXYMAX / 16.0f;
 float TEXXSIZE = 1.0f / 24.0f;
 float TEXYSIZE = 1.0f / 16.0f;
+
+class Vector3 {
+public:
+	float x;
+	float y;
+	float z;
+	Vector3() {}
+	Vector3(float newx, float newy, float newz) {
+		x = newx;
+		y = newy;
+		z = newz;
+	}
+
+	bool operator==(Vector3& rhs) {
+		return (this->x == rhs.x && this->y == rhs.y && this->z == rhs.z);
+	}
+
+	void operator=(Vector3& rhs)
+	{
+		this->x = rhs.x;
+		this->y = rhs.y;
+		this->z = rhs.z;
+	}
+};
+
 struct gameObj
 {
 	float verts[12] = { -0.5f, -0.5f, 0.5f, -.5f, .5f, .5f, -0.5f, -0.5f, 0.5f, 0.5f, -.5f, 0.5f };
@@ -205,7 +230,7 @@ struct worldObjs
 	}
 	void Blocker()
 	{
-		float offset = 1.0f;
+		float offset = 0.0f;
 		for (int y = 0; y < Map.mapHeight; y++) {
 			for (int x = 0; x < Map.mapWidth; x++) {
 				int val = Map.mapData[y][x];
@@ -213,10 +238,7 @@ struct worldObjs
 					num += 6;
 					float u = ((float)(((int)Map.mapData[y][x]) % TEXXNUM)) / (float)TEXXNUM;
 					float v = ((float)(((int)Map.mapData[y][x]) / TEXYNUM)) / (float)TEXYNUM;
-					/*if (val == 63 || val == 64)
-					{
-						u = textxcoords(val);
-					}*/
+
 					objBlocks.insert(objBlocks.end(), {
 						(TILE_SIZE * x) -offset, (TILE_SIZE * y) - offset,
 						(TILE_SIZE * x) - offset, ((TILE_SIZE * y) - TILE_SIZE) - offset,
@@ -234,7 +256,6 @@ struct worldObjs
 						u + TEXXSIZE, v - (TEXYSIZE),
 						u + TEXXSIZE, v
 						});
-					u = 0;
 				}
 			}
 		}
