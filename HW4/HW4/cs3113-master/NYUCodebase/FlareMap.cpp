@@ -61,10 +61,15 @@ bool FlareMap::ReadLayerData(std::ifstream &stream) {
 				std::string tile;
 				for(int x=0; x < mapWidth; x++) {
 					std::getline(lineStream, tile, ',');
-					unsigned char val =  (unsigned char)atoi(tile.c_str());
-					if(val > 0) {
-						mapData[y][x] = val-1;
-					} else {
+					unsigned int val =  (unsigned int)atoi(tile.c_str());
+					if(val == 1) {
+						mapData[y][x] = val;
+					}
+					else if (val > 0)
+					{
+						mapData[y][x] = val - 1;
+					}
+					else {
 						mapData[y][x] = 0;
 					}
 				}
@@ -115,7 +120,7 @@ void FlareMap::Load(const std::string fileName) {
 			}
 		} else if(line == "[layer]") {
 			ReadLayerData(infile);
-		} else if(line == "[ObjectsLayer]") {
+		} else if(line == "[objects]") {
 			ReadEntityData(infile);
 		}
 	}
