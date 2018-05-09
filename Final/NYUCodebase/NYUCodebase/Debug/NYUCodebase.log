@@ -1,0 +1,40 @@
+﻿  main.cpp
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(39): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(57): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(132): warning C4305: 'initializing': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(237): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(257): warning C4101: 'col': unreferenced local variable
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(305): warning C4305: '+=': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(306): warning C4305: '+=': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(327): warning C4305: '=': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(332): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(333): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(334): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(334): warning C4305: 'argument': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(464): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(477): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(541): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(578): warning C4305: '+=': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(582): warning C4305: '-=': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(619): warning C4305: '=': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(623): warning C4305: '=': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(684): warning C4305: 'argument': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(685): warning C4305: 'argument': truncation from 'double' to 'float'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(762): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(762): warning C4154: deletion of an array expression; conversion to pointer supplied
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(774): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(775): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(837): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(965): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(980): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(985): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(986): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(1056): warning C4018: '<': signed/unsigned mismatch
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(1097): warning C4018: '<': signed/unsigned mismatch
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(1107): warning C4018: '<': signed/unsigned mismatch
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(1201): warning C4150: deletion of pointer to incomplete type '_Mix_Music'; no destructor called
+  c:\sdl2_mixer\include\sdl_mixer.h(131): note: see declaration of '_Mix_Music'
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(1319): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+f:\leo\games\cs3113-master\project_template\windows\nyucodebase\nyucodebase\main.cpp(1326): warning C4305: 'argument': truncation from 'double' to 'float'
+  NYUCodebase.vcxproj -> F:\Leo\Games\CS3113-master\project_template\Windows\NYUCodebase\Debug\NYUCodebase.exe
