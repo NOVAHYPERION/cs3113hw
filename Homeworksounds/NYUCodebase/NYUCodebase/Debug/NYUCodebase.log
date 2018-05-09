@@ -1,0 +1,8 @@
+﻿  main.cpp
+f:\leo\games\project_template\windows\nyucodebase\nyucodebase\main.cpp(158): warning C4305: '=': truncation from 'double' to 'float'
+f:\leo\games\project_template\windows\nyucodebase\nyucodebase\main.cpp(159): warning C4305: '=': truncation from 'double' to 'float'
+f:\leo\games\project_template\windows\nyucodebase\nyucodebase\main.cpp(161): warning C4305: '+=': truncation from 'double' to 'float'
+f:\leo\games\project_template\windows\nyucodebase\nyucodebase\main.cpp(176): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+f:\leo\games\project_template\windows\nyucodebase\nyucodebase\main.cpp(299): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+f:\leo\games\project_template\windows\nyucodebase\nyucodebase\main.cpp(557): warning C4305: 'argument': truncation from 'double' to 'float'
+  NYUCodebase.vcxproj -> F:\Leo\Games\project_template\Windows\NYUCodebase\Debug\NYUCodebase.exe
