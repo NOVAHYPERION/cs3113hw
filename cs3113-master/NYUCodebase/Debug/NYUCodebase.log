@@ -1,0 +1,30 @@
+﻿  main.cpp
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(35): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(36): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(54): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(241): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(261): warning C4101: 'col': unreferenced local variable
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(307): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(308): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(419): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(432): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(496): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(531): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(535): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(565): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(569): warning C4305: '=': truncation from 'double' to 'float'
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(629): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(630): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(709): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(710): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(763): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(1005): warning C4018: '<': signed/unsigned mismatch
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(1045): warning C4018: '<': signed/unsigned mismatch
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(1055): warning C4018: '<': signed/unsigned mismatch
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(1132): warning C4018: '<=': signed/unsigned mismatch
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(1149): warning C4018: '>=': signed/unsigned mismatch
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(1174): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(1175): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(1178): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\leonardo\desktop\githubhwcs3113\hw4 - copy\hw4\cs3113-master\nyucodebase\main.cpp(1248): warning C4305: 'argument': truncation from 'double' to 'float'
+  NYUCodebase.vcxproj -> C:\Users\Leonardo\Desktop\githubhwcs3113\HW4 - Copy\HW4\cs3113-master\NYUCodebase\Debug\NYUCodebase.exe
